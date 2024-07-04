@@ -27,8 +27,8 @@ const siteProps = {
   name: "Nicolas Suarez",
   title: "Data Engineer",
   email: "javinsuarez@gmail.com",
-  gitHub: "https://github.com/NicoJSuarez2",
-  linkedIn: "https://www.linkedin.com/in/nicojsuarez/",
+  gitHub: "NicoJSuarez2",
+  linkedIn: "nicojsuarez",
 };
 
 const primaryColor = "#4E567E";

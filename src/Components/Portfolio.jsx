@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/IM2.jpg";
+import image from "../images/IM3.jpg";
 
 const imageAltText = "coding on a laptop with a cup of coffee nearby";
 
@@ -31,28 +31,26 @@ const imageAltText = "coding on a laptop with a cup of coffee nearby";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Power BI report with a Bogota database containing 123 calls. ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "We developed a report in power BI that allows us to create an estimate of emergency calls for the next quarter.",
+    url: "https://nostalgic-station-6fc.notion.site/POWER-BI-e6791c43d8164cee8e3342fa2135783e?pvs=25",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Olist a Brazilian e-commerce database on deliveries ",
+    description: "We created a sports automation system in python using reportlab",
+    url: "https://nostalgic-station-6fc.notion.site/Phython-fa3eefbd48814e088a7898a0a90e4acf",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "linear regression case study",
+    description: "This is the easiest way to begin to understand how the models work.",
+    url: "https://www.notion.so/Regresion-Lineal-21c36d0089a54d5c898b6cccfa89be14",
   },
   {
     title: "GitHub Codespaces and github.dev",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "In this repository you will find all the tools (React) that we used to create this web site",
+    url: "https://github.com/NicoJSuarez2/Portfolio",
   },
 ];
 
