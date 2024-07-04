@@ -27090,8 +27090,8 @@ var _stylesCss = require("./styles.css");
     name: "Nicolas Suarez",
     title: "Data Engineer",
     email: "javinsuarez@gmail.com",
-    gitHub: "https://github.com/NicoJSuarez2",
-    linkedIn: "https://www.linkedin.com/in/nicojsuarez/"
+    gitHub: "NicoJSuarez2",
+    linkedIn: "nicojsuarez"
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
@@ -28745,8 +28745,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _im2Jpg = require("../images/IM2.jpg");
-var _im2JpgDefault = parcelHelpers.interopDefault(_im2Jpg);
+ */ var _im3Jpg = require("../images/IM3.jpg");
+var _im3JpgDefault = parcelHelpers.interopDefault(_im3Jpg);
 const imageAltText = "coding on a laptop with a cup of coffee nearby";
 /**
  * Project list
@@ -28755,24 +28755,24 @@ const imageAltText = "coding on a laptop with a cup of coffee nearby";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+        title: "Power BI report with a Bogota database containing 123 calls. ",
+        description: "We developed a report in power BI that allows us to create an estimate of emergency calls for the next quarter.",
+        url: "https://nostalgic-station-6fc.notion.site/POWER-BI-e6791c43d8164cee8e3342fa2135783e?pvs=25"
     },
     {
-        title: "Web Development for Beginners",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
+        title: "Olist a Brazilian e-commerce database on deliveries ",
+        description: "We created a sports automation system in python using reportlab",
+        url: "https://nostalgic-station-6fc.notion.site/Phython-fa3eefbd48814e088a7898a0a90e4acf"
     },
     {
-        title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+        title: "linear regression case study",
+        description: "This is the easiest way to begin to understand how the models work.",
+        url: "https://www.notion.so/Regresion-Lineal-21c36d0089a54d5c898b6cccfa89be14"
     },
     {
         title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        description: "In this repository you will find all the tools (React) that we used to create this web site",
+        url: "https://github.com/NicoJSuarez2/Portfolio"
     }, 
 ];
 const Portfolio = ()=>{
@@ -28787,7 +28787,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 62,
+                lineNumber: 60,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28803,7 +28803,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _im2JpgDefault.default),
+                            src: (0, _im3JpgDefault.default),
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28812,12 +28812,12 @@ const Portfolio = ()=>{
                             alt: imageAltText
                         }, void 0, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 65,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 64,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28836,12 +28836,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 75,
+                                            lineNumber: 73,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 72,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28849,30 +28849,30 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 73,
+                                lineNumber: 71,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 71,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 63,
+                lineNumber: 61,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 61,
+        lineNumber: 59,
         columnNumber: 5
     }, undefined);
 };
@@ -28886,6 +28886,9 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/IM2.jpg":"eMqtz"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/IM3.jpg":"fz5Ph"}],"fz5Ph":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "IM3.b06d906f.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
