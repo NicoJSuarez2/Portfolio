@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/IM1.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Codigo de programacion en una computadora.";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a business administrator who started as a data analyst and transitioned into a data engineer. I have a passion for leveraging data to drive business insights and efficiency.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "KPIS",
+  "Machine learning",
+  "Reporting and data visualization",
+  "Power Apps",
+  "Gastronomy Intelligence",
+  "WEB Development",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am deeply passionate about driving innovation through creative problem-solving. With a background in UI/UX, I am dedicated to making technology accessible to everyone by constantly exploring new and improved approaches. My goal is to enhance user experiences and streamline accessibility through innovative design solutions.";
 
 const About = () => {
   return (
