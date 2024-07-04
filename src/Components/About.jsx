@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/IM1.jpg";
+import image from "../images/IM4.jpg";
 
-const imageAltText = "Codigo de programacion en una computadora.";
+const imageAltText = "lights of the city at night in a modern art museum.";
 
 /**
  * Sort description that expands on your title on the Home component.
