@@ -23,6 +23,7 @@ const Education = () => {
 
   return (
     <section id="education">
+      <h2 style={{ textAlign: "center" }}>Education</h2>
       <div className="education">
         {educationData.map((education, index) => (
           <div className="education-cell" key={index}>
