@@ -27119,12 +27119,12 @@ const App = ()=>{
                 lineNumber: 43,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
                 lineNumber: 44,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
                 lineNumber: 45,
                 columnNumber: 7
@@ -28570,11 +28570,19 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#education",
+                children: "Education"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#footer",
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28909,19 +28917,68 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const Education = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-            children: "Education"
+/* Grid of 4 education cells */ const Education = ()=>{
+    const educationData = [
+        {
+            title: "Business Administration",
+            institution: "Uniminuto, Bogota, Colombia",
+            period: "2015 - 2019"
+        },
+        {
+            title: "Business Intelligence",
+            institution: "Universidad de los Andes, Bogota, Colombia",
+            period: "2020 - 2021"
+        },
+        {
+            title: "Data Science",
+            institution: "Platzi, Bogota, Colombia",
+            period: "2021 - Present"
+        }
+    ];
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "education",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "education",
+            children: educationData.map((education, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "education-cell",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            children: education.title
+                        }, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 28,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: education.institution
+                        }, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 29,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: education.period
+                        }, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 30,
+                            columnNumber: 13
+                        }, undefined)
+                    ]
+                }, index, true, {
+                    fileName: "src/Components/Education.jsx",
+                    lineNumber: 27,
+                    columnNumber: 11
+                }, undefined))
         }, void 0, false, {
             fileName: "src/Components/Education.jsx",
-            lineNumber: 5,
-            columnNumber: 13
+            lineNumber: 25,
+            columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 4,
-        columnNumber: 9
+        lineNumber: 24,
+        columnNumber: 5
     }, undefined);
 };
 _c = Education;
