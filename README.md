@@ -1,9 +1,14 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# JavaScript Portfolio Site with GitHub Codespaces and Copilot
+To create this repository, follow these steps:
 
-> View these instructions in [Spanish](/translations/es/README.md) or [Portuguese](/translations/pt-BR/README.md)
+1. Click the **Use this Template** button at the top of the repository page.
+2. Choose the owner for the new repository and provide a unique name for it.
+3. Click the **Code** button and select **Create Codespace on main** to create a new Codespace for your repository.
+4. Customize your portfolio site by following the instructions in the **Customize your site in 3 steps** section.
+5. Deploy your web application using the steps outlined in the **Deploy your site** section.
+6. You now have your own JavaScript portfolio site with GitHub Codespaces and Copilot!
 
+Remember to commit and push your changes to the repository as you make updates to your portfolio site. Happy coding!
 _Create, customize and deploy your own portfolio website in minutes._ ✨
 
 In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your [Codespace](https://github.com/features/codespaces/) environment and start customizing your site using [Copilot](https://copilot.github.com) to help you write code faster.
@@ -17,24 +22,21 @@ In this template repository we have the development environment and base set and
 
 In this "choose your own adventure" template portfolio, we have a [React](https://reactjs.org/) based web application ready for you to easily customize and deploy using only your web browser.
 
-![JavaScript profile web application](/__images__/js-portfolio-site.gif "JavaScript profile web application")
 
 ### Quick Start
 
 1. Click the **Use this Template** button and then **Create a new repository** as can be seen in the image below.
    Note: Make sure you've signed in to GitHub otherwise, you wouldn't see the **Use this Template** button.
-![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")
 1. Select the repository owner (e.g. your GitHub account)
 1. Enter a unique name for your new repository
 1. Click the **Code** button
 1. Click **Create Codespace on main** button
-1. [Customize your portfolio site](#-customize-your-site-in-3-steps) with Copilot
-1. [Deploy your site](#-deploy-your-web-application)
+
 
 <details>
    <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
 
-   [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
+   [![Codespaces Tutorial](https://.youtube.com/vi/ozuDPmcC1io/0.imgjpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
 <br />
