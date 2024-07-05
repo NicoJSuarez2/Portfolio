@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles.css";
+import "../Styles/Education.css";
+import { motion } from "framer-motion";
 
-/* Grid of 4 education cells */
 const Education = () => {
   const educationData = [
     {
@@ -16,7 +16,7 @@ const Education = () => {
     },
     {
       title: "Data Science",
-      institution: "Henry, Buenos aires, Argentina",
+      institution: "Henry, Buenos Aires, Argentina",
       period: "2023"
     }
   ];
@@ -26,11 +26,17 @@ const Education = () => {
       <h2 style={{ textAlign: "center" }}>Education</h2>
       <div className="education">
         {educationData.map((education, index) => (
-          <div className="education-cell" key={index}>
+          <motion.div
+            className="education-cell"
+            key={index}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
+          >
             <h3>{education.title}</h3>
             <p>{education.institution}</p>
             <p>{education.period}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
