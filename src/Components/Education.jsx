@@ -1,10 +1,11 @@
 import React from "react";
 const Education = () => {
-    return(
-        <section className="light" id="education">
+    return (
+        <div>
             <h2>Education</h2>
-        </section>
-    )
-}
+            {/* Estudioso mi pana  */}
+        </div>
+    );
+};
 
 export default Education;
