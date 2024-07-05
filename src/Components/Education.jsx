@@ -1,27 +1,28 @@
 import React from "react";
+import "../styles.css";
 
 /* Grid of 4 education cells */
 const Education = () => {
   const educationData = [
     {
       title: "Business Administration",
-      institution: "Uniminuto, Bogota, Colombia",
-      period: "2015 - 2019"
+      institution: "Politecnico Gran Colombiano, Bogota, Colombia",
+      period: "2020 - 2025"
     },
     {
-      title: "Business Intelligence",
-      institution: "Universidad de los Andes, Bogota, Colombia",
-      period: "2020 - 2021"
+      title: "Google data driven marketing",
+      institution: "Coursera, Bogota, Colombia",
+      period: "2022"
     },
     {
       title: "Data Science",
-      institution: "Platzi, Bogota, Colombia",
-      period: "2021 - Present"
+      institution: "Henry, Buenos aires, Argentina",
+      period: "2023"
     }
   ];
 
   return (
-    <section className="padding" id="education">
+    <section id="education">
       <div className="education">
         {educationData.map((education, index) => (
           <div className="education-cell" key={index}>
@@ -36,4 +37,3 @@ const Education = () => {
 };
 
 export default Education;
-

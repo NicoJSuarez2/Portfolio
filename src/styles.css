@@ -145,4 +145,45 @@ img.socialIcon {
     transform: translateX(0);
   }
 }
+/* General styles for the section */
+#education {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container for the education cells */
+.education {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual education cells */
+.education-cell {
+  background-color: #f0f8ff; /* You can change this */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.2s;
+}
+
+/* Hover effect for education cells */
+.education-cell:hover {
+  transform: translateY(-10px);
+}
+
+/* Heading style */
+.education-cell h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+/* Paragraph style */
+.education-cell p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #941d1d;
+}
 
