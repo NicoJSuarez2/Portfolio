@@ -63,7 +63,7 @@ const Portfolio = () => {
           <img
             src={image}
             style={{
-              height: "90%", 
+              height: "90%",
               width: "100%",
               objectFit: "cover",
               animation: "1s ease-out 0s 1 slideInLeft",
