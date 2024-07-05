@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Education.css";
+import "../Styles.css";
 import { motion } from "framer-motion";
 
 const Education = () => {
