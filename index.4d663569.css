@@ -130,17 +130,13 @@ img.socialIcon {
   }
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
   }
 
-  40% {
-    transform: translateY(-30px);
-  }
-
-  60% {
-    transform: translateY(-15px);
+  100% {
+    transform: translateX(0);
   }
 }
 
