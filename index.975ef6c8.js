@@ -27155,7 +27155,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Education":"6QZcy"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./Components/Education":"6QZcy","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28905,7 +28905,7 @@ $RefreshReg$(_c, "Portfolio");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/IM3.jpg":"fz5Ph","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fz5Ph":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "IM3.b06d906f.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"6QZcy":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"6QZcy":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8bef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28917,26 +28917,26 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _stylesCss = require("../styles.css");
 /* Grid of 4 education cells */ const Education = ()=>{
     const educationData = [
         {
             title: "Business Administration",
-            institution: "Uniminuto, Bogota, Colombia",
-            period: "2015 - 2019"
+            institution: "Politecnico Gran Colombiano, Bogota, Colombia",
+            period: "2020 - 2025"
         },
         {
-            title: "Business Intelligence",
-            institution: "Universidad de los Andes, Bogota, Colombia",
-            period: "2020 - 2021"
+            title: "Google data driven marketing",
+            institution: "Coursera, Bogota, Colombia",
+            period: "2022"
         },
         {
             title: "Data Science",
-            institution: "Platzi, Bogota, Colombia",
-            period: "2021 - Present"
+            institution: "Henry, Buenos aires, Argentina",
+            period: "2023"
         }
     ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding",
         id: "education",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "education",
@@ -28947,37 +28947,37 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
                             children: education.title
                         }, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 28,
+                            lineNumber: 29,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: education.institution
                         }, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 29,
+                            lineNumber: 30,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: education.period
                         }, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 30,
+                            lineNumber: 31,
                             columnNumber: 13
                         }, undefined)
                     ]
                 }, index, true, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 27,
+                    lineNumber: 28,
                     columnNumber: 11
                 }, undefined))
         }, void 0, false, {
             fileName: "src/Components/Education.jsx",
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 5
     }, undefined);
 };
@@ -28991,6 +28991,6 @@ $RefreshReg$(_c, "Education");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react/jsx-dev-runtime":"iTorj"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles.css":"lW6qc"}],"lW6qc":[function() {},{}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
