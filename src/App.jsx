@@ -12,7 +12,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Education from "./Components/Education";
-import Grafico from "./Components/grafico";
+
 
 import "./styles.css";
 
@@ -45,7 +45,6 @@ const App = () => {
       <Education />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
-      <Grafico />
     </div>
   );
 };
