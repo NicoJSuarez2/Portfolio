@@ -3,9 +3,9 @@ import backgroundImage from '../images/IM1.jpg';
 
 const Education = () => {
     const educationData = [
-        { degree: "B.Sc. in Computer Science", institution: "University A", year: "2020" },
-        { degree: "M.Sc. in Software Engineering", institution: "University B", year: "2022" },
-        { degree: "Ph.D. in Artificial Intelligence", institution: "University C", year: "2025" },
+        { degree: "Business administrator", institution: "Politecnico Gran Colombiano", year: "2025" },
+        { degree: "Data science", institution: "Henry", year: "2024" },
+        { degree: "Data analysis", institution: "Digital-Now", year: "2024" },
     ];
 
     return (
